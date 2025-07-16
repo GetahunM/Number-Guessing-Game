@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+   
+
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Number-Guessing-Game</title>
+
+</head>
+<body>
+  
+
+    <button onclick="toggleDarkMode()" style="margin-top:15px;">Toggle Dark Mode</button>
+<div class="logo-container">
+
+</div>
+
+  <div class="container">
+    <h1 class="title">GUESS MY NUMBER</h1>
+    <h2 class="subtitle">1 up to 10</h2>
+
+    <input type="number" id="userInput" placeholder="Enter your guess number" autofocus min="1" max="10" />
+
+    <div>
+      <button class="guessBtn" onclick="guessMyNumber()">Guess</button>
+      <button class="resetBtn" onclick="resetGame()">Play Again</button>
+      <button class="stopBtn" onclick="stopGame()">Stop Game</button>
+      <button onclick="exitGame()">Exit Game</button>
+
+    </div>
+
+    <p id="result"></p>
+  </div>
+
+  <audio id="winSound" src="https://www.soundjay.com/human/sounds/applause-8.mp3" preload="auto"></audio>
+  <audio id="backgroundMusic" src="https://www.bensound.com/bensound-music/bensound-sunny.mp3" autoplay loop preload="auto"></audio>
+  <script src="jss.js"></script>
+</body>
+</html>

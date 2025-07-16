@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff9f2;
+    color: #5e381e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  body.dark {
+    background-color: #111;
+    color: #eee;
+  }
+  .container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  body.dark .container {
+    background: #222;
+  }
+  h1.title {
+    font-size: 3rem;
+    color: #b14c05;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h2.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #5e381e;
+  }
+  body.dark h2.subtitle {
+    color: #d4a65b;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1.2rem;
+    border: 2px solid #dba55d;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  input[type=number]:focus {
+    border-color: #b14c05;
+  }
+  button {
+    background-color: #db5f07;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px 8px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgb(219 95 7 / 0.6);
+  }
+  button:hover:not(:disabled) {
+    background-color: #b14c05;
+    box-shadow: 0 6px 12px rgb(177 76 5 / 0.8);
+  }
+  button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: green;
+    min-height: 50px;
+  }
+  body.dark #result {
+    color: #a6e22e;
+  }
+  body {
+  position: relative;  /* to position absolute children relative to body */
+}
+
+.logo-container {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1000; /* so it stays on top */
+}
+
+.logo-container img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 10px; /* optional: rounded corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
