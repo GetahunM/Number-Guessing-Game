@@ -5,7 +5,7 @@ This is a simple number guessing game built with HTML, CSS, and JavaScript. The 
 
 Live Demo  
 Visit the live version here:  
-https://GetahunM.github.io/Number-Guessing-Game/
+https://getahunm.github.io/Number-Guessing-Game/
 
 Project Features
 ----------------
