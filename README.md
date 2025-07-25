@@ -1,43 +1,64 @@
- 🔢 Number Guessing Game
+Number Guessing Game
+====================
 
-A simple and interactive number guessing game built with HTML, CSS, and JavaScript. The player tries to guess a randomly generated number within a certain range and a limited number of attempts. The game offers hints like "Too High" or "Too Low" to guide the player and displays the number of remaining guesses.
+This is a simple number guessing game built with HTML, CSS, and JavaScript. The player tries to guess a randomly generated number within a limited number of attempts. After each guess, the game gives helpful feedback like "Too high" or "Too low" until the correct number is guessed or the attempts run out.
 
----
+Live Demo  
+Visit the live version here:  
+https://GetahunM.github.io/Number-Guessing-Game/
 
-## 🚀 Live Demo
+Project Features
+----------------
 
-👉 [Play the Game](https://GetahunM.github.io/Number-Guessing-Game/)
+- Random number is generated at the start of each game
+- Player has limited attempts to guess correctly
+- Gives hints after every guess
+- Option to restart and play again
+- Clean and responsive user interface
+- Light/Dark mode toggle for better experience
 
----
+Technologies Used
+-----------------
 
-## 🧠 Features
+- HTML5
+- CSS3
+- JavaScript (vanilla)
 
-- 🎯 Random number generation
-- 🧠 Logic-based hint system (Too High / Too Low)
-- 💥 Tracks number of attempts
-- 🌓 Light/Dark mode toggle
-- 📱 Fully responsive design
-- 🔁 Restart game button
-- 🎨 Clean UI with modern styling
+How to Run Locally
+------------------
 
----
+1. Clone the repository:
 
- 🛠️ Technologies Used
-
-HTML5 – Structure of the web page  
-CSS3 – Styling and responsive layout  
-JavaScript (ES6) – Game logic and user interaction
-
-
-
- 🖥️ How to Run Locally
-
-```bash
-# Clone the repository
 git clone https://github.com/GetahunM/Number-Guessing-Game.git
 
-# Navigate into the project directory
-cd Number-Guessing-Game
+markdown
+Copy code
 
-# Open the game in your browser
-open index.html
+2. Open the folder and double-click `index.html`  
+or run it in any modern browser.
+
+Screenshot
+----------
+
+Include a screenshot here to give a quick visual idea of how the game looks. For example:
+
+![Screenshot](assets/screenshot.png)
+
+(You can add this image in a folder named `assets`.)
+
+What I Learned
+--------------
+
+This project helped me practice:
+- DOM manipulation
+- Conditional logic and game flow
+- Styling with CSS for both light and dark themes
+- Improving UI/UX with animations and feedback messages
+
+Contact
+-------
+
+If you have any questions, feedback, or would like to work together:
+
+Email: getahunmisganaw0@gmail.com  
+GitHub: https://github.com/GetahunM
