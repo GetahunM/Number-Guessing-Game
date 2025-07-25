@@ -37,15 +37,6 @@ Copy code
 2. Open the folder and double-click `index.html`  
 or run it in any modern browser.
 
-Screenshot
-----------
-
-Include a screenshot here to give a quick visual idea of how the game looks. For example:
-
-![Screenshot](assets/screenshot.png)
-
-(You can add this image in a folder named `assets`.)
-
 What I Learned
 --------------
 
